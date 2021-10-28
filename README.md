@@ -1,9 +1,9 @@
-## Hotkeys:
+# Hotkeys:
 - F12 in Chrome opens the console/dev. window. You can also right click an element on a page and use 'Inspect' to open it. Doing so will highlight the element you clicked on.
 - Esc while the development window is up opens a mini-console on the bottom of the window.
 
-## Homework Questions
-# Notes
+# Homework Questions
+## Notes
 The following questions might be answerable by working it out in your head but you should try to use what you learnt in the lesson to debug through the code to get your answers. If necessary, fix the issues that cause errors to continue debugging the next question(s).
 
 Remember, you can call methods by using the console window while debugging!
@@ -13,7 +13,7 @@ The homework questions will be about the methods:
 - bugFix
 - elseIfLoop
 - elseIfValues
-
+## Questions
 1. The block of code below (buggedClick function), throws an error/blows up. Why?
 
 2. In the buggedClick function, what is the final value of 'combine'? 
