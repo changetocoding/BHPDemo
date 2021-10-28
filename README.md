@@ -92,3 +92,8 @@ function elseIfValues(value) {
     }
 }
 ```
+5. See the folder named "question5"
+
+6. Complete the excerises here: 
+https://education.launchcode.org/intro-to-professional-web-dev/chapters/errors-and-debugging/exercises.html#debugging-practice
+
