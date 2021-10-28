@@ -1,20 +1,23 @@
-let btnDebug = document.getElementById("btnDebug");
-let lblDebug = document.getElementById("lblDebug");
-let txtDebug = document.getElementById("txtDebug");
+## Hotkeys:
+- F12 in Chrome opens the console/dev. window. You can also right click an element on a page and use 'Inspect' to open it. Doing so will highlight the element you clicked on.
+- Esc while the development window is up opens a mini-console on the bottom of the window.
 
-function debugButtonClicked() {
-    let input = "";
-    input = txtDebug.value;
-    lblDebug.innerText = "You have clicked the button";
-    changeLabelText(input);
-}
+## Homework Questions
+# Notes
+The following questions might be answerable by working it out in your head but you should try to use what you learnt in the lesson to debug through the code to get your answers. If necessary, fix the issues that cause errors to continue debugging the next question(s).
 
-function changeLabelText(text) {
-    let labelDisplay = "";
-    labelDisplay = "Your input is: " + text;
-    lblDebug.innerText = labelDisplay;
-}
+Remember, you can call methods by using the console window while debugging!
+The homework questions will be about the methods:
+- changeLabeltext
+- buggedClick
+- bugFix
+- elseIfLoop
+- elseIfValues
 
+1. The block of code below (buggedClick function), throws an error/blows up. Why?
+
+2. In the buggedClick function, what is the final value of 'combine'? 
+```
 function buggedClick() {
     let firstNumber = 1;
     let secondNumber = "2";
@@ -23,11 +26,19 @@ function buggedClick() {
     let combine = firstNumber + secondNumber;
     label.innerHTML = combine;
 }
-
+```
+3. In the buggedClick function, how would you use the bugFix function to get it to output '3'?
+Hint: make sure to debug past secondNumber before using the bugFix function.
+```
 function bugFix(number) {
     return parseInt(number);
 }
 
+```
+
+4. In the elseIfLoop function below, what would the value 'forString' be?
+
+```
 function elseIfLoop() {
     let forString = "";
     for (let x = 0; x < 10; x++) {
@@ -80,3 +91,4 @@ function elseIfValues(value) {
         return "b";
     }
 }
+```
