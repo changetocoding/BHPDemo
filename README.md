@@ -17,7 +17,7 @@ The homework questions will be about the methods:
 1. The block of code below (buggedClick function), throws an error/blows up. Why?
 
 2. In the buggedClick function, what is the final value of 'combine'? 
-```
+```js
 function buggedClick() {
     let firstNumber = 1;
     let secondNumber = "2";
@@ -29,7 +29,7 @@ function buggedClick() {
 ```
 3. In the buggedClick function, how would you use the bugFix function to get it to output '3'?
 Hint: make sure to debug past secondNumber before using the bugFix function.
-```
+```js
 function bugFix(number) {
     return parseInt(number);
 }
@@ -38,7 +38,7 @@ function bugFix(number) {
 
 4. In the elseIfLoop function below, what would the value 'forString' be?
 
-```
+```js
 function elseIfLoop() {
     let forString = "";
     for (let x = 0; x < 10; x++) {
