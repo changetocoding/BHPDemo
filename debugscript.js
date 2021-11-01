@@ -22,11 +22,15 @@ function buggedClick() {
 
     let combine = firstNumber + secondNumber;
     label.innerHTML = combine;
+
+// 3. add to function that gets called
+//    elseIfLoop();
 }
 
 function bugFix(number) {
     return parseInt(number);
 }
+
 
 function elseIfLoop() {
     let forString = "";
@@ -34,6 +38,17 @@ function elseIfLoop() {
         forString += elseIfValues(x);
     }
 }
+
+// 1. Call as is - When do snake game
+// elseIfLoop();
+
+// 2. call on document ready - when need to interact
+//document.addEventListener("DOMContentLoaded", (event) => {
+//  elseIfLoop();
+//});
+
+// 4. Not used - delete it
+
 function elseIfValues(value) {
     if (value === 9) {
         return "!";
